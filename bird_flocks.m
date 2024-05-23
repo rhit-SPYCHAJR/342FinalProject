@@ -130,10 +130,10 @@ if createMov == 1
     writeVideo(v, M);
     close(v);
     close all
-    disp(strcat('movie is',{' '}, name))
+    disp(strcat('movie file saved as ',{' '}, name))
 end
 
-disp(ruleCont);
+%disp(ruleCont);
 
 
 
